@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+body{
+    background-color:  #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.search-input{
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+}
+
+.search-input:focus{
+    outline-color: #874556;
+}
+
+.search-button{
+    padding: 6px 13px;
+    background-color: #874556;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.search-button:hover{
+    background-color: white;
+    color:#874556;
+    border: 1px solid #874556;
+} 
+.navbar-nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between ;
+} 
+.nav-item{
+    margin-left:10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.nav-link:hover{
+    background-color: brown;
+    color: white;
+}
+
+.active{
+    background-color: brown;
+    color: white;
+}
+
+.cantainer{
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+.pass{
+    margin-bottom: 15px;
+}
+
+.pass label{
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.pass input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.pass #button{
+    display: inline;
+    padding: 12px;
+    background-color: brown;
+    color:white;
+    outline-color: brown;
+    margin-left: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.button:hover{
+    background-color: white;
+    color:brown;
+    border: 2px solid brown;
+
+}
